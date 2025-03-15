@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "goit-algo2-hw-06"
+version = "0.1.0"
+description = ""
+authors = ["Sergii <kryvkosergii@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+matplotlib = "^3.10.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
