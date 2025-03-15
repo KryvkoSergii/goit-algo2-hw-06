@@ -16,7 +16,7 @@ Write a Python script that loads text from a given URL, analyzes the frequency o
 
 ### Result
 Top 10 Most Frequent Words for ["1984" by George Orwell from project Gutenberg](https://gutenberg.net.au/ebooks01/0100021.txt)
-![Result](doc/Figure_1.svg)
+![Result](doc/Figure_1.png)
 
 ### Prerequisites 
 ```bash
