@@ -9,7 +9,7 @@ parser.add_argument("-w", "--words", help="Search words",
                     default=None, nargs="*")
 args = parser.parse_args()
 
-def visualize(words):
+def visualize_top_words(words):
     top_words, frequency = zip(*words[::-1])
 
     plt.barh(top_words, frequency)
@@ -23,4 +23,4 @@ if text:
     search_words = args.words if args.words else None
     result = map_reduce(text, search_words)
     sorted_words = sorted(result.items(), key=lambda entry: entry[1], reverse=True)
-    visualize(sorted_words[:10])
+    visualize_top_words(sorted_words[:10])
